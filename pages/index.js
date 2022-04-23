@@ -14,11 +14,13 @@ const Home = ({ productData, bannerData }) => {
 				<p>Speakers</p>
 			</div>
 			<div className="products-container">
-				{/* If the productData prop successfully returned an array, return each product name */}
-				{productData?.map((product) => product.name)}
+				{/* If the productData prop successfully returned an array, return a product component */}
+				{productData?.map((product) => (
+					<Product key={product._id} product={product} />
+				))}
 			</div>
 
-			<FooterBanner />
+			<FooterBanner footerBanner={bannerData && bannerData[0]} />
 		</>
 	);
 };
