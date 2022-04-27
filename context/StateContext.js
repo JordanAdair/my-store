@@ -20,6 +20,12 @@ export const StateContext = ({ children }) => {
 
 	// Adding items to cart logic
 	const onAdd = (product, quantity) => {
+		setCartItems((prevCartItems) =>
+			prevCartItems.sort((a, b) => {
+				// Change this to whatever you want to sort by.
+				return b.quantity - a.quantity;
+			})
+		);
 		// Check if the user already has this item in their cart
 		const checkProductInCart = cartItems.find(
 			(item) => item._id === product._id
@@ -83,6 +89,12 @@ export const StateContext = ({ children }) => {
 				...newCartItems,
 				{ ...foundProduct, quantity: foundProduct.quantity + 1 },
 			]);
+			setCartItems((prevCartItems) =>
+				prevCartItems.sort((a, b) => {
+					// Change this to whatever you want to sort by.
+					return b.quantity - a.quantity;
+				})
+			);
 			setTotalPrice((prevTotalPrice) => prevTotalPrice + foundProduct.price);
 			setTotalQuantities((prevTotalQuantities) => prevTotalQuantities + 1);
 		} else if (value === "dec") {
@@ -91,6 +103,12 @@ export const StateContext = ({ children }) => {
 					...newCartItems,
 					{ ...foundProduct, quantity: foundProduct.quantity - 1 },
 				]);
+				setCartItems((prevCartItems) =>
+					prevCartItems.sort((a, b) => {
+						// Change this to whatever you want to sort by.
+						return b.quantity - a.quantity;
+					})
+				);
 				setTotalPrice((prevTotalPrice) => prevTotalPrice - foundProduct.price);
 				setTotalQuantities((prevTotalQuantities) => prevTotalQuantities - 1);
 			}
