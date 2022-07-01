@@ -5,15 +5,41 @@
 # Table of Contents
 1. [Introduction](#introduction)
 2. [Home](#home)
-3. [Stripe Checkout](#stripe)
-4. [Environment Variables](#env)
+3. [Item Information](#item)
+4. [Cart](#cart)
+5. [Stripe Checkout](#stripe)
+6. [Sanity](#sanity)
+7. [Environment Variables](#env)
 
 ## Introduction <a name="introduction"/>
+**MyStore** is a modern full stack e-commerce web application designed using **React**, **Next.js**, **Sanity**, and **Stripe**.  
 
-![store](https://user-images.githubusercontent.com/43575081/176940752-7a7fc9a8-018a-4634-8228-f709359965fb.gif)
-
+This project uses **React** best practices, including hooks, refs, and proper folder structure. It uses **React Context API** to manage state, and **Next.js** for file-based routing, server-side rendering, and static generation. **Stripe** is used for secure payments during the checkout process. 
 
 ## Home <a name="home"/>
+
+![home-page](https://user-images.githubusercontent.com/43575081/176943993-443ac416-bee3-47b9-be00-c14ee21685c1.png)
+
+
+## Item Information <a name="item"/>
+
+![item-info](https://user-images.githubusercontent.com/43575081/176944015-beec29d4-67f5-46ee-ab4d-7ad4418ae3b5.png)
+
+ 
+## Cart <a name="cart"/>
+
+![cart-sidebar](https://user-images.githubusercontent.com/43575081/176944029-5798b2b8-a3de-4c3f-a668-d44509fe11f7.png)
+
+
+## Stripe Checkout <a name="stripe"/>
+
+![stripe-cashout-info](https://user-images.githubusercontent.com/43575081/176944125-58f8e253-0740-4883-8b50-88f5e461efd7.png)
+![success-page](https://user-images.githubusercontent.com/43575081/176944127-dd6b1091-c18e-45ed-bd83-f1ca51b1b35f.png)
+
+## Sanity <a name="sanity"/>
+
+![sanity-profile](https://user-images.githubusercontent.com/43575081/176944277-ed7211c6-5781-4f59-bc0f-36b2eaf90fb9.png)
+
 
 ## Enviornment Variables <a name="env"/>
 
