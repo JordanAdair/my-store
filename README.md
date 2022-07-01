@@ -77,7 +77,8 @@ With Sanity we can update the name, price, description, pictures, etc. of each p
 
 In order to use your own data for this, you'll need to create a _.env_ file with these attributes inside: 
 
-![env](https://user-images.githubusercontent.com/43575081/176936650-f31e6795-8a15-4c0d-bc96-7d19945347ac.png)
+![env](https://user-images.githubusercontent.com/43575081/176949183-932b302b-b9ca-4a4b-8b00-4c7d2b05df24.png)
+
 
 **Your Sanity Key** can be created by making an account [here](https://www.sanity.io/). <br/>
 **Your Stripe Publishable & Secret Keys** can be created by making an account [here](https://stripe.com/en-ca).
