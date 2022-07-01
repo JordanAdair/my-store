@@ -1,34 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![🛒_MyStore](https://user-images.githubusercontent.com/43575081/176933310-6433ca1e-a6b8-4180-b9bd-d97b414d3196.png)
 
-## Getting Started
+➡ **Try the [LIVE DEMO](https://my-store-phi.vercel.app/)** ⬅
 
-First, run the development server:
+# Table of Contents
+1. [Introduction](#introduction)
+2. [Home](#home)
+3. [Stripe Checkout](#stripe)
+4. [Environment Variables](#env)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Introduction <a name="introduction"/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![store](https://user-images.githubusercontent.com/43575081/176940752-7a7fc9a8-018a-4634-8228-f709359965fb.gif)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Home <a name="home"/>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Enviornment Variables <a name="env"/>
 
-## Learn More
+In order to use your own data for this, you'll need to create a _.env_ file with these attributes inside: 
 
-To learn more about Next.js, take a look at the following resources:
+![env](https://user-images.githubusercontent.com/43575081/176936650-f31e6795-8a15-4c0d-bc96-7d19945347ac.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Your Sanity Key** can be created by making an account [here](https://www.sanity.io/). <br/>
+**Your Stripe Publishable & Secret Keys** can be created by making an account [here](https://stripe.com/en-ca).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Never used **Sanity** before? Check out [this video](https://www.youtube.com/watch?v=2ceM_tSus_M). 
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Or, you can always ➡ **Try the [LIVE DEMO](https://my-store-phi.vercel.app/)** ⬅
